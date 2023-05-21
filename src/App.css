@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.progress-bar {
+  width: 300px;
+  height: 10px;
+  background-color: rgb(27, 25, 25);
+  margin-bottom: 50px;
+  margin: 0 auto;
+}
+
+.progress-bar div {
+  transition: all .3s;
+  width: 33.33%;
+  height: 100%;
+  background-color: rgb(98, 0, 255);
+}
